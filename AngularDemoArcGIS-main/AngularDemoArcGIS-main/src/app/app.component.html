@@ -1,0 +1,109 @@
+<!-- <div class="header">
+  <span *ngIf="authenticatedUser">
+    Autentificat: {{ authenticatedUser }}
+  </span>
+</div>
+
+ <nav mat-tab-nav-bar [tabPanel]="tabPanel">
+  <a mat-tab-link *ngFor="let tab of tabs" 
+     (click)="activeTab = tab.link" 
+     [active]="activeTab === tab.link"
+     [routerLink]="tab.link">
+    {{ tab.name }}
+  </a>
+</nav>
+<mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>
+<div class="container">
+  <router-outlet></router-outlet>
+</div> 
+<mat-tab-group [(selectedIndex)]="selectedIndex" (selectedTabChange)="onTabChange($event)">
+  <mat-tab label="Home">
+    <ng-template matTabContent>
+      <router-outlet></router-outlet>
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="Map" [disabled]="!authenticatedUser">
+    <ng-template matTabContent>
+      <router-outlet></router-outlet>
+    </ng-template>
+  </mat-tab>
+</mat-tab-group>
+<div class="app-container">
+  <router-outlet></router-outlet>
+</div> -->
+<!-- <div class="header">
+  <span *ngIf="authenticatedUser">
+    {{ authenticatedUser }}
+    <button mat-button color="warn" (click)="logout()">Logout</button>
+  </span>
+  <span *ngIf="!authenticatedUser && isLoggingOut">
+    Logging out...
+  </span>
+</div>
+<mat-tab-group [(selectedIndex)]="selectedIndex" (selectedTabChange)="onTabChange($event)">
+  <mat-tab label="Home">
+    <ng-template matTabContent>
+      <router-outlet></router-outlet>
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="Map" [disabled]="!authenticatedUser">
+    <ng-template matTabContent>
+      <router-outlet></router-outlet>
+    </ng-template>
+  </mat-tab>
+</mat-tab-group>
+<div class="app-container">
+  <router-outlet></router-outlet>
+</div> -->
+
+<!-- Mesajul de logout -->
+<div *ngIf="isLoggingOut" class="logout-overlay">
+  <p>Logging out...</p>
+</div>
+
+<!-- <mat-toolbar color="primary">
+  <div class="toolbar-content">
+    <span class="spacer"></span>
+    <span *ngIf="authenticatedUser" class="user-info">
+      {{ authenticatedUser }}
+      <button mat-button color="accent" (click)="logout()">Logout</button>
+    </span>
+  </div>
+</mat-toolbar>
+
+<!-- Grupul de tab-uri -->
+<!--<mat-tab-group [(selectedIndex)]="selectedIndex" (selectedTabChange)="onTabChange($event)">
+  <mat-tab label="Home">
+    <ng-template matTabContent>
+      <router-outlet></router-outlet>
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="Map" [disabled]="!authenticatedUser">
+    <ng-template matTabContent>
+      <!-- Harta este afișată doar dacă showMap este true -->
+<!--      <ng-container *ngIf="showMap">
+        <app-esri-map></app-esri-map>
+      </ng-container>
+    </ng-template>
+  </mat-tab>
+</mat-tab-group> -->
+
+<mat-toolbar color="primary">
+  <div class="toolbar-content">
+    <ng-container *ngFor="let tab of tabs">
+      <a mat-button [routerLink]="tab.link">{{ tab.name }}</a>
+    </ng-container>
+    <span class="spacer"></span>
+    <span *ngIf="authenticatedUser" class="user-info">
+      {{ authenticatedUser }}
+      <button mat-button color="accent" (click)="logout()">Logout</button>
+    </span>
+  </div>
+</mat-toolbar>
+
+
+<!-- Conținutul aplicației -->
+<div class="app-container">
+  <router-outlet></router-outlet>
+</div>
+

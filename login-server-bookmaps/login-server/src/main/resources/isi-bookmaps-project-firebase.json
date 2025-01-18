@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "isi-bookmaps-project-c548d",
+  "private_key_id": "c36267e2fbdb60524f1ef586bbfa47ad9e81fdc8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC3t6fpAw2v+dAX\nQvKPnISD7vxasBu4UXpKJ0b50YdsGvDITyY35YJbMxNXpHdQsyQEgaQIISsp8mBr\nJwpVBwupOBLYLTx+WqEhESh+WlZdMNfwMDpfOEKtPUtkl6bK9JD+DbQWmz7J21ur\nJhj24tVP+E6odwBSEbbrKwkIqER79Qm/S0+yTtLiddP1UlnmwjF++sKP/m9TenH5\none/3qkjnnXQoMtd5KHWJrRaQmhbbR/ORf4Zrvq0thBIm5xngEQEK2X0ysBlLb0C\n/9+kZPiq0K0zrLhBuZZ5cDpHmQQQF1AeTt1OIbpnmw84fyajQTcF69er470k86O3\nRr12zXo/AgMBAAECggEAA3la4euMJbZ1enjYC/SZT8KEKR7bIHpvqpAqJdrtd1xL\noQl8+oZ4qZP5P4Th8Le5WjUIzpuw0R71yToT6KdrmJoD2TXMEAzBQUPSOccoZhHg\nhcHKke2HJBvKL+YP9F/4/Vu6+si+Lja2+cNn83ISW/5X6LkNElumikedDWeSUIdw\neDsAPYi+V6HafABFj2Z6YXtWkSEc1f3GecHiKVCye1OvvQ+z63DyInJCtkECPfWY\nA+fsxxN14xiXgcsS2UiqeAtkonq9Fd2pLEb/T+IfRSw1UJnLaQ/t6SZIECM7W7il\nw4aEr58k1aBe6YQPh/Q4o7Z5UC9d0HW899hfWItmcQKBgQDoEUWKSdz66QynesU6\n00TgqpbBPGp6xZSQuY1ozaP4RYHUJ83abABbQeLGQFeOrzzLrme0lk7HBGbGF5VP\nWHENgSZ0I+PQ74iNNJZhIarFOX0RHNHNEq+HSeLpk5GbMDvr3mnze8lP1/8jG4zg\nYdqxACwRKjs7p1cby1WTGmNcSQKBgQDKqel2VBYIpbWUretwD39tOgW9am0J5esY\nYhec7+1bfW56nFatmkZHHixCgwfu7SylJPxkz1CoX+nyFVedwQvmXPrUc0crTJcS\nqcFA44Tu2/7JGiM+39pCMUDephGbMuWtz9/pd9f0AeOFQ6tSjuLYT2mSMlAQcaJf\nwYZUOTPSRwKBgANUHBc7r/u5VAEi9ak+VoKSb88durlAFD1vK+QQ7wUkmhQc7grv\n+aFVdJc7XQYi5VBWlA43CbI5EfBNbkrRDe4PqCmKSj448VB1LKMABJ8HkA+qxieW\n2QWrvaF0CGadbn6XlhVz9RM8GeC7CG4/eQ+I3Rjx7h+Q6uLvK68MddhhAoGAd/Y1\nrIY/eKTmI/kC+RUjX3tN9H4vxwEitQ8zXQEkZdiMceVi5WYBnY09s60uH/6iQ6rt\n/5o76z7DEzoQ399qdNSq4ODPytCOSEzViNxkTqNIYK+pF0mYP0A6XtC8cTqie80l\nhGQdH2GS1Mpmefr8SgBPxGslu2YYMEg0hFxL0XcCgYBPOgaJgha65XUzDixh84Yy\noXBWVfV1ZB9g+UcIe2kgP0QM1De7OldKQdv7eqOaWwjlZAhADf9aMgkJn7CoSveT\n9npfMJdrgQXQG7kILcwUoS2fezbIng2Gu9xuFASjE/efNHsYH7ll1YsyQtJL6TAi\nhgOiTfgbLDTkS6u8clFc9A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-wixbl@isi-bookmaps-project-c548d.iam.gserviceaccount.com",
+  "client_id": "112740175711782196184",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-wixbl%40isi-bookmaps-project-c548d.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

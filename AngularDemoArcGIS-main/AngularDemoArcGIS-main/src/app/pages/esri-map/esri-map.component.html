@@ -1,0 +1,36 @@
+<div class="search-container" style="position: absolute; top: 80px; left: 1170px; right: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <input 
+    type="text" 
+    [(ngModel)]="searchQuery" 
+    (input)="updateSuggestions()" 
+    placeholder="Search for bookshops..." 
+    class="search-input" 
+    style="width: 200px; padding: 5px; margin-right: 5px;"
+  />
+  <button (click)="findBookshops()" style="margin-right: 5px;">Search</button>
+  <button (click)="resetSearch()">Reset</button>
+
+  <ul *ngIf="showSuggestions && suggestions.length" class="suggestions" style="list-style: none; padding: 5px; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.3); position: absolute; top: 40px; right: 10px; z-index: 10; width: 200px;">
+    <li *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)" style="padding: 5px; cursor: pointer; border-bottom: 1px solid #ccc;">
+      {{ suggestion.name }}
+    </li>
+  </ul>
+</div>
+
+<div class="search-container" style="position: absolute; top: 80px; left: 60px; right: 950px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <label for="sector-select">Sector:</label>
+  <select id="sector-select" [(ngModel)]="selectedSector" (change)="filterBookshops()" style="margin-bottom: 10px; padding: 5px;">
+    <option value="">All Sectors</option>
+    <option *ngFor="let sector of availableSectors" [value]="sector">{{ sector }}</option>
+  </select>
+
+  <label for="opening-hours-select">Opening Hours:</label>
+  <select id="opening-hours-select" [(ngModel)]="selectedOpeningHours" (change)="filterBookshops()" style="margin-bottom: 10px; padding: 5px;">
+    <option value="">All Hours</option>
+    <option *ngFor="let hours of availableOpeningHours" [value]="hours">{{ hours }}</option>
+  </select>
+
+  <button (click)="resetFilters()" style="margin-top: 10px;">Reset Filters</button>
+</div>
+
+<div #mapViewNode style="width: 100%; height: 600px;"></div>

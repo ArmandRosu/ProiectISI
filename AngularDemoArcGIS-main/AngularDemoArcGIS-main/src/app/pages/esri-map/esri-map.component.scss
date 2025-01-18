@@ -1,0 +1,122 @@
+/* Container to hold both the sidebar and the map */
+.container {
+  display: flex;
+  height: calc(100vh - 64px);
+  width: 100%;
+}
+
+/* Map view styling */
+.map-view {
+  height: 100vh;
+  width: 100%;
+}
+
+/* Floating Action Button (FAB) styling */
+.fab {
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1100;
+  transition: background-color 0.3s;
+}
+
+.fab:hover {
+  background-color: #c0392b;
+}
+
+.scrollable {
+  overflow-y: auto;
+  height: calc(100vh - 64px);
+}
+
+.label {
+  font-size: 24px;
+}
+
+.search-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.search-input {
+  width: 200px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+
+.filter-container {
+  position: absolute;
+  top: 80px; /* Adjusted from 10px to 80px */
+  left: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.search-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.button-container {
+  position: absolute;
+  top: 280px; /* Ajustează astfel încât să fie sub bara de filtrare */
+  left: 10px;
+  z-index: 10;
+}
+
+/* Move the map widgets (e.g., zoom, locate) down by 70px */
+.esri-ui-top-left {
+  margin-top: 340px;
+}
+
+
+
+
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  background: white;
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 1000;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}

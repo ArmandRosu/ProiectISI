@@ -1,0 +1,156 @@
+[
+    {
+      "id": 1,
+      "name": "Carturesti Carusel",
+      "address": "Strada Lipscani 55, București",
+      "sector": 3,
+      "opening_hours": "10:00-22:00",
+      "latitude": 44.43214555749699,
+      "longitude": 26.101570610020136
+    },
+    {
+      "id": 2,
+      "name": "Carturesti Verona",
+      "address": "Strada Pictor Arthur Verona 13-15, București",
+      "sector": 1,
+      "opening_hours": "10:00-21:00",
+      "latitude": 44.442869941221176,
+      "longitude": 26.099269823468266
+    },
+    {
+      "id": 3,
+      "name": "CLB Universitate",
+      "address": "Bulevardul Regina Elisabeta 5, București",
+      "sector": 5,
+      "opening_hours": "09:00-20:00",
+      "latitude": 44.43567135999705,
+      "longitude": 26.099287252348176
+    },
+    {
+      "id": 4,
+      "name": "Diverta Lipscani",
+      "address": "Strada Lipscani 30-34, București",
+      "sector": 3,
+      "opening_hours": "10:00-21:00",
+      "latitude": 44.431862313062474,
+      "longitude": 26.100540867692168
+    },
+    {
+      "id": 5,
+      "name": "Diverta Piața Romană",
+      "address": "Bulevardul Gheorghe Magheru 9, București",
+      "sector": 1,
+      "opening_hours": "10:00-20:00",
+      "latitude": 44.448018056721,
+      "longitude": 26.096177249494836
+    },
+    {
+      "id": 6,
+      "name": "Humanitas Kretzulescu",
+      "address": "Calea Victoriei 45, București",
+      "sector": 1,
+      "opening_hours": "10:00-21:00",
+      "latitude": 44.43803447647383,
+      "longitude": 26.097165688089532
+    },
+    {
+      "id": 7,
+      "name": "Humanitas Cișmigiu",
+      "address": "Bulevardul Regina Elisabeta 38, București",
+      "sector": 5,
+      "opening_hours": "09:30-21:00",
+      "latitude": 44.43498188879253,
+      "longitude": 26.09513042536434
+    },
+    {
+      "id": 8,
+      "name": "Carturesti Mega Mall",
+      "address": "Bulevardul Pierre de Coubertin 3-5, București",
+      "sector": 2,
+      "opening_hours": "10:00-22:00",
+      "latitude": 44.44181349088391,
+      "longitude": 26.152736967692622
+    },
+    {
+      "id": 9,
+      "name": "Carturesti AFI Cotroceni",
+      "address": "Bulevardul Vasile Milea 4, București",
+      "sector": 6,
+      "opening_hours": "10:00-22:00",
+      "latitude": 44.4300946477592,
+      "longitude": 26.052882338855994
+    },
+    {
+      "id": 10,
+      "name": "CLB Militari",
+      "address": "Strada Valea Cascadelor 2, București",
+      "sector": 6,
+      "opening_hours": "09:00-20:00",
+      "latitude": 44.43316288790382,
+      "longitude": 26.005321538856172
+    },
+    {
+      "id": 11,
+      "name": "CLB Dristor",
+      "address": "Calea Dudești 94, București",
+      "sector": 3,
+      "opening_hours": "09:00-20:00",
+      "latitude": 44.42397479297472,
+      "longitude": 26.123919194675654
+    },
+    {
+      "id": 12,
+      "name": "Diverta Unirii",
+      "address": "Bulevardul Unirii 1, București",
+      "sector": 3,
+      "opening_hours": "10:00-21:00",
+      "latitude": 44.427923859969006,
+      "longitude": 26.09349587101288
+    },
+    {
+      "id": 13,
+      "name": "Diverta Sun Plaza",
+      "address": "Calea Văcărești 391, București",
+      "sector": 4,
+      "opening_hours": "10:00-22:00",
+      "latitude": 44.39699198489333,
+      "longitude": 26.12270801300207
+    },
+    {
+      "id": 14,
+      "name": "Humanitas Magheru",
+      "address": "Bulevardul Gheorghe Magheru 7, București",
+      "sector": 1,
+      "opening_hours": "10:00-21:00",
+      "latitude": 44.44043929484509,
+      "longitude": 26.10036469838071
+    },
+    {
+      "id": 15,
+      "name": "Humanitas Cotroceni",
+      "address": "Șoseaua Panduri 34, București",
+      "sector": 5,
+      "opening_hours": "10:00-21:00",
+      "latitude": 44.42626353572873,
+      "longitude": 26.069259411871965
+    },
+    {
+      "id": 16,
+      "name": "Humanitas Auchan Titan",
+      "address": "Bulevardul 1 Decembrie 1918 33A, București",
+      "sector": 3,
+      "opening_hours": "10:00-22:00",
+      "latitude": 44.420351262361415,
+      "longitude": 26.17603674953551
+    },
+    {
+      "id": 17,
+      "name": "Carturesti ParkLake",
+      "address": "Strada Liviu Rebreanu 4, București",
+      "sector": 3,
+      "opening_hours": "10:00-22:00",
+      "latitude": 44.421305850024666,
+      "longitude": 26.149742025363622
+    }
+]
+  

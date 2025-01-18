@@ -1,0 +1,236 @@
+
+<!-- 
+<div class="search-container" style="position: absolute; top: 80px; left: 1200px; right: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <input 
+    type="text" 
+    [(ngModel)]="searchQuery" 
+    placeholder="Search for bookshops..."
+    class="search-input" 
+  />
+  <button (click)="findBookshops()">Search</button>
+</div>
+
+<div #mapViewNode style="width: 100%; height: 600px;"></div> -->
+
+
+
+<!-- <div class="search-container" style="position: absolute; top: 80px; left: 1150px; right: 20px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <input 
+    type="text" 
+    [(ngModel)]="searchQuery" 
+    (focus)="onFocusSearch()" 
+    (blur)="onBlurSearch()" 
+    (input)="updateSuggestions()" 
+    placeholder="Search for bookshops..."
+    class="search-input" 
+  />
+  <button (click)="findBookshops()">Search</button>
+  <button (click)="resetSearch()">Reset</button>
+
+  <ul *ngIf="showSuggestions && suggestions.length" class="suggestions">
+    <li *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)">
+      {{ suggestion }}
+    </li>
+  </ul>
+</div>
+
+<div #mapViewNode style="width: 100%; height: 600px;"></div> -->
+
+
+
+
+
+<!-- <div class="filter-container" style="position: absolute; top: 10px; left: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <label for="sector-select">Sector:</label>
+  <select id="sector-select" [(ngModel)]="selectedSector" (change)="filterBookshops()">
+    <option value="">All</option>
+    <option *ngFor="let sector of availableSectors" [value]="sector">
+      {{ sector }}
+    </option>
+  </select>
+
+  <label for="opening-hours-input">Opening Hours:</label>
+  <input
+    id="opening-hours-input"
+    type="text"
+    placeholder="HH:MM"
+    [(ngModel)]="openingHour"
+    (input)="filterBookshops()"
+  />
+
+  <button (click)="resetFilters()">Reset Filters</button>
+</div>
+
+<div #mapViewNode style="width: 100%; height: 600px;"></div> -->
+
+
+
+
+
+<!-- <div class="filter-container" style="position: absolute; top: 10px; left: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <label for="sector-select">Sector:</label>
+  <select id="sector-select" [(ngModel)]="selectedSector" (change)="filterBookshops()">
+    <option value="">All</option>
+    <option *ngFor="let sector of availableSectors" [value]="sector">
+      {{ sector }}
+    </option>
+  </select>
+
+  <label for="opening-hours-select">Opening Hours:</label>
+  <select id="opening-hours-select" [(ngModel)]="selectedOpeningHours" (change)="filterBookshops()">
+    <option value="">All</option>
+    <option *ngFor="let hours of availableOpeningHours" [value]="hours">
+      {{ hours }}
+    </option>
+  </select>
+
+  <button (click)="resetFilters()">Reset Filters</button>
+</div>
+
+<div #mapViewNode style="width: 100%; height: 600px;"></div> -->
+
+
+
+
+
+
+
+<!-- <div class="search-container" style="position: absolute; top: 80px; left: 1170px; right: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <input 
+    type="text" 
+    [(ngModel)]="searchQuery" 
+    placeholder="Search for bookshops..." 
+    class="search-input" 
+  />
+  <button (click)="findBookshops()">Search</button>
+  <button (click)="resetSearch()">Reset</button>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="search-container" style="position: absolute; top: 80px; left: 1170px; right: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <input 
+    type="text" 
+    [(ngModel)]="searchQuery" 
+    (input)="updateSuggestions()" 
+    placeholder="Search for bookshops..." 
+    class="search-input" 
+  />
+  <button (click)="findBookshops()">Search</button>
+  <button (click)="resetSearch()">Reset</button>
+
+  <ul *ngIf="showSuggestions && suggestions.length" class="suggestions">
+    <li *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)">
+      {{ suggestion.name }}
+    </li>
+  </ul>
+  
+</div>
+
+
+<div class="search-container" style="position: absolute; top: 80px; left: 60px; right: 1050px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <label for="sector-select">Sector:</label>
+  <select id="sector-select" [(ngModel)]="selectedSector" (change)="filterBookshops()">
+    <option value="">All</option>
+    <option *ngFor="let sector of availableSectors" [value]="sector">
+      {{ sector }}
+    </option>
+  </select>
+
+  <label for="opening-hours-select">Opening Hours:</label>
+  <select id="opening-hours-select" [(ngModel)]="selectedOpeningHours" (change)="filterBookshops()">
+    <option value="">All</option>
+    <option *ngFor="let hours of availableOpeningHours" [value]="hours">
+      {{ hours }}
+    </option>
+  </select>
+
+  <button (click)="resetFilters()">Reset Filters</button>
+</div>
+
+<div #mapViewNode style="width: 100%; height: 600px;"></div>
+ -->
+
+
+
+<!-- Bara de căutare -->
+<div class="search-container" style="position: absolute; top: 80px; left: 1170px; right: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <input 
+    type="text" 
+    [(ngModel)]="searchQuery" 
+    (input)="updateSuggestions()" 
+    placeholder="Search for bookshops..." 
+    class="search-input" 
+    style="width: 200px; padding: 5px; margin-right: 5px;"
+  />
+  <button (click)="findBookshops()" style="margin-right: 5px;">Search</button>
+  <button (click)="resetSearch()">Reset</button>
+
+  <!-- Sugestii afișate din bara de căutare -->
+  <ul *ngIf="showSuggestions && suggestions.length" class="suggestions" style="list-style: none; padding: 5px; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.3); position: absolute; top: 40px; right: 10px; z-index: 10; width: 200px;">
+    <li *ngFor="let suggestion of suggestions" (click)="selectSuggestion(suggestion)" style="padding: 5px; cursor: pointer; border-bottom: 1px solid #ccc;">
+      {{ suggestion.name }}
+    </li>
+  </ul>
+</div>
+
+<!-- Bara de filtre -->
+<div class="search-container" style="position: absolute; top: 80px; left: 60px; right: 950px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <!-- Filtru după sector -->
+  <label for="sector-select">Sector:</label>
+  <select id="sector-select" [(ngModel)]="selectedSector" (change)="filterBookshops()" style="margin-bottom: 10px; padding: 5px;">
+    <option value="">All Sectors</option>
+    <option *ngFor="let sector of availableSectors" [value]="sector">{{ sector }}</option>
+  </select>
+
+  <!-- Filtru după orar -->
+  <label for="opening-hours-select">Opening Hours:</label>
+  <select id="opening-hours-select" [(ngModel)]="selectedOpeningHours" (change)="filterBookshops()" style="margin-bottom: 10px; padding: 5px;">
+    <option value="">All Hours</option>
+    <option *ngFor="let hours of availableOpeningHours" [value]="hours">{{ hours }}</option>
+  </select>
+
+  <!-- Buton de resetare a filtrelor -->
+  <button (click)="resetFilters()" style="margin-top: 10px;">Reset Filters</button>
+</div>
+
+<!-- Harta -->
+<div #mapViewNode style="width: 100%; height: 600px;"></div>
+
+
+
+
+
+
+
+
+<!-- <div class="filter-container" style="position: absolute; top: 10px; left: 10px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.3);">
+  <label for="sector-select">Sector:</label>
+  <select id="sector-select" [(ngModel)]="selectedSector" (change)="filterBookshops()">
+    <option value="">All</option>
+    <option *ngFor="let sector of availableSectors" [value]="sector">
+      {{ sector }}
+    </option>
+  </select>
+
+  <label>
+    <input
+      type="checkbox"
+      [(ngModel)]="showOpenNow"
+      (change)="toggleOpenNow()"
+    />
+    Open Now
+  </label>
+
+  <button (click)="resetFilters()">Reset Filters</button>
+</div> -->
